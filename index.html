@@ -12,14 +12,14 @@
   <meta property="og:description" content="Official page to learn about and purchase Persona." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://outlinekrish.github.io/persona" />
-  <!-- Replace with a small optimized image at images/og.webp -->
-  <meta property="og:image" content="images/og.webp" />
+  <!-- External image used for social preview -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80" />
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Persona — Official" />
   <meta name="twitter:description" content="Official page to learn about and purchase Persona." />
-  <meta name="twitter:image" content="images/og.webp" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80" />
 
   <meta name="theme-color" content="#0066cc" />
   <!-- Optional: <link rel="manifest" href="/site.webmanifest"> -->
@@ -104,18 +104,15 @@
       <h2 id="hero-heading" class="sr-only">Persona — Buy and Learn</h2>
 
       <figure>
-        <!-- Use modern formats and fallbacks. Add properly sized assets for srcset in production. -->
-        <picture>
-          <source srcset="images/persona.webp" type="image/webp" />
-          <source srcset="images/persona.jpg" type="image/jpeg" />
-          <img
-            src="images/persona.jpg"
-            alt="Persona cover art featuring the title and key characters"
-            loading="lazy"
-            width="800"
-            height="450"
-          />
-        </picture>
+        <!-- Use an externally hosted image (this avoids adding images to the repo). -->
+        <!-- You can replace the URL below with any public image URL. -->
+        <img
+          src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80"
+          alt="Persona cover art (external image)"
+          loading="lazy"
+          width="1200"
+          height="675"
+        />
         <figcaption>Persona — cover art</figcaption>
       </figure>
 
